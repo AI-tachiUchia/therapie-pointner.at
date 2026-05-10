@@ -350,8 +350,10 @@ p.subtext { color: var(--grey); max-width: 600px; margin: 0 auto 3rem; }
   gap: 5rem;
   align-items: center;
 }
-.first-talk-text h2 { margin-bottom: 1rem; }
-.first-talk-text p { color: var(--mid); margin-bottom: 1.2rem; }
+.first-talk-text h2,
+.first-talk-billing h2 { margin-bottom: 1rem; }
+.first-talk-text p,
+.first-talk-billing p { color: var(--mid); margin-bottom: 1.2rem; }
 .first-talk-text .btn-secondary { margin-top: 0.5rem; }
 .first-talk-image img {
   border-radius: var(--radius);
@@ -360,6 +362,13 @@ p.subtext { color: var(--grey); max-width: 600px; margin: 0 auto 3rem; }
   object-fit: cover;
   box-shadow: var(--shadow);
 }
+
+/* ---- PATH PHOTO (fullwidth band) ---- */
+.path-photo {
+  height: 50vh; min-height: 320px; max-height: 520px;
+  overflow: hidden;
+}
+.path-photo img { object-position: center 55%; }
 
 /* ---- FINAL QUOTE ---- */
 .quote-final {
@@ -394,7 +403,7 @@ p.subtext { color: var(--grey); max-width: 600px; margin: 0 auto 3rem; }
 .practice .container { padding-bottom: 2.5rem; }
 .gallery {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 280px 280px;
   gap: 4px;
   max-width: 100%;
@@ -477,6 +486,13 @@ p.subtext { color: var(--grey); max-width: 600px; margin: 0 auto 3rem; }
   border: 0;
   display: block;
 }
+.maps-transport {
+  margin-top: 1.2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--mid);
+}
+.maps-transport strong { color: var(--orange); font-weight: 500; }
 
 /* ---- FOOTER ---- */
 .footer {
@@ -542,7 +558,7 @@ p.subtext { color: var(--grey); max-width: 600px; margin: 0 auto 3rem; }
   .about-grid,
   .sherlock-grid,
   .first-talk-grid { grid-template-columns: 1fr; gap: 2.5rem; }
-  .about-image img,
+  .about-image img { aspect-ratio: 3/4; max-height: 520px; object-position: center top; }
   .sherlock-image img,
   .first-talk-image img { aspect-ratio: 4/3; max-height: 380px; }
   .sherlock-grid .sherlock-image { order: -1; }
