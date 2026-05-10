@@ -215,19 +215,16 @@
       <div class="gallery-item tall">
         <img src="images/praxis-2.jpg" alt="Praxisraum">
       </div>
-      <div class="gallery-item wide">
+      <div class="gallery-item">
         <img src="images/praxis-1.jpg" alt="Praxisraum Detail">
       </div>
       <div class="gallery-item">
         <img src="images/sherlock-portrait.jpg" alt="Sherlock im Praxisraum">
       </div>
-      <div class="gallery-item">
-        <img src="images/camino.jpg" alt="Camino">
-      </div>
     </div>
   </section>
 
-  <!-- ERSTGESPRÄCH -->
+  <!-- ERSTGESPRÄCH & ABRECHNUNG -->
   <section class="first-talk">
     <div class="container first-talk-grid">
       <div class="first-talk-text">
@@ -246,11 +243,22 @@
         </p>
         <a href="#kontakt" class="btn-secondary">Termin anfragen</a>
       </div>
-      <div class="first-talk-image">
-        <img src="images/praxis-1.jpg" alt="Praxisraum für das Erstgespräch">
+      <div class="first-talk-billing">
+        <span class="section-label">Abrechnung</span>
+        <h2>Kostenzuschuss</h2>
+        <p>
+          Für die klinisch-psychologische bzw. psychotherapeutische Behandlung
+          können Sie einen Kostenzuschuss von Ihrer Krankenkasse erhalten.
+          Details bespreche ich gerne im Erstgespräch.
+        </p>
       </div>
     </div>
   </section>
+
+  <!-- WEG-BILD -->
+  <div class="path-photo">
+    <img src="images/camino.jpg" alt="Weg in der Natur">
+  </div>
 
   <!-- ZITAT -->
   <section class="quote-final">
@@ -268,7 +276,7 @@
       <div class="contact-info">
         <span class="section-label">Kontakt</span>
         <h2>Termin anfragen</h2>
-        <p>Ich freue mich über Ihre Nachricht und melde mich innerhalb weniger Werktage.</p>
+        <p>Ich freue mich über Ihre Nachricht.</p>
         <ul class="contact-details">
           <li>
             <strong>Eva Pointner</strong><br>
@@ -282,12 +290,6 @@
           <li>
             <strong>E-Mail</strong><br>
             <a href="mailto:therapie.pointner@gmail.com">therapie.pointner@gmail.com</a>
-          </li>
-          <li>
-            <strong>Abrechnung</strong><br>
-            Für die klinisch-psychologische bzw. psychotherapeutische Behandlung können
-            Sie einen Kostenzuschuss von Ihrer Krankenkasse erhalten. Details bespreche
-            ich gerne im Erstgespräch.
           </li>
         </ul>
       </div>
@@ -327,6 +329,10 @@
           <p class="maps-note">Beim Laden werden Daten an Google übertragen.</p>
         </div>
       </div>
+      <p class="maps-transport">
+        Mit den Buslinien <strong>A</strong> und <strong>K</strong> erreichbar
+        — Haltestelle „Großer Gott".
+      </p>
     </div>
   </section>
 
@@ -528,7 +534,7 @@
       });
     }, { threshold: 0.1 });
     document.querySelectorAll(
-      '.about-grid, .sherlock-grid, .service-card, .first-talk-grid, .quote-final blockquote, .gallery-item, .contact-grid'
+      '.about-grid, .sherlock-grid, .service-card, .first-talk-grid, .path-photo, .quote-final blockquote, .gallery-item, .contact-grid'
     ).forEach(el => {
       el.classList.add('fade-in');
       observer.observe(el);
