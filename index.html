@@ -437,12 +437,13 @@
             E-Mail: <a href="mailto:therapie.pointner@gmail.com">therapie.pointner@gmail.com</a></p>
 
             <p><strong>Hosting der Website</strong><br>
-            Diese Website wird bei folgendem Anbieter gehostet:<br>
-            <em>[Name und Adresse des Hosting-Anbieters]</em><br>
-            Der Hostinganbieter verarbeitet personenbezogene Daten (z.&nbsp;B. IP-Adressen)
-            zum Zweck der Bereitstellung und Sicherheit der Website auf Grundlage eines
-            berechtigten Interesses gemäß Art. 6 Abs. 1 lit. f DSGVO. Mit dem
-            Hostinganbieter besteht ein Auftragsverarbeitungsvertrag gemäß Art. 28 DSGVO.</p>
+            Diese Website wird über GitHub Pages bereitgestellt, einen Dienst der
+            GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA.
+            Beim Aufruf dieser Website kann GitHub insbesondere IP-Adressen und
+            technische Zugriffsdaten verarbeiten, um den Dienst bereitzustellen, zu
+            schützen und Missbrauch zu verhindern. Weitere Informationen finden Sie in
+            der GitHub-Datenschutzerklärung:
+            <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" target="_blank" rel="noopener">GitHub General Privacy Statement</a>.</p>
 
             <p><strong>Kontaktaufnahme</strong><br>
             Wenn Sie per E-Mail oder über ein Kontaktformular Kontakt aufnehmen, werden
@@ -460,11 +461,11 @@
             Kommunikation kann daher nicht garantiert werden.</p>
 
             <p><strong>Server-Logfiles</strong><br>
-            Der Hostinganbieter dieser Website erhebt und speichert automatisch
-            Informationen in sogenannten Server-Logfiles (IP-Adresse, Datum und Uhrzeit,
-            Browser, Betriebssystem, Referrer-URL, aufgerufene Seiten). Diese Daten dienen
-            der technischen Sicherheit und Optimierung der Website und werden nicht
-            bestimmten Personen zugeordnet. Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO.</p>
+            GitHub kann beim Besuch von GitHub-Pages-Websites technische Protokolldaten
+            wie IP-Adresse, Datum und Uhrzeit des Abrufs, Browser- bzw. Gerätedaten,
+            Referrer-URL und aufgerufene Seiten verarbeiten. Diese Daten dienen der
+            technischen Bereitstellung und Sicherheit der Website. Rechtsgrundlage ist
+            Art. 6 Abs. 1 lit. f DSGVO.</p>
 
             <p><strong>Cookies</strong><br>
             Diese Website verwendet Cookies, um die Benutzerfreundlichkeit zu verbessern.
@@ -502,9 +503,11 @@
 
   <script>
     // Sticky nav
-    window.addEventListener('scroll', () => {
+    const updateNavState = () => {
       document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 60);
-    });
+    };
+    updateNavState();
+    window.addEventListener('scroll', updateNavState);
 
     // Mobile menu toggle
     document.querySelector('.nav-toggle').addEventListener('click', () => {
