@@ -449,6 +449,7 @@ p.subtext { color: var(--mid); max-width: 620px; margin: 0 auto 3rem; }
 }
 .gallery-item img { transition: transform 0.5s ease; }
 .gallery-item:hover img { transform: scale(1.04); }
+.gallery-item.camino img { object-position: center bottom; }
 .gallery-item.tall { grid-row: span 2; }
 .gallery-item.wide { grid-column: span 2; }
 
