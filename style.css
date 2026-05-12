@@ -155,8 +155,10 @@ textarea:focus-visible {
   margin-bottom: 1rem;
 }
 .hero-sub {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
   font-size: 1.18rem;
-  font-weight: 600;
+  font-weight: 500;
   opacity: 0.96;
   margin-bottom: 2rem;
 }
@@ -254,6 +256,7 @@ p.subtext { color: var(--mid); max-width: 620px; margin: 0 auto 3rem; }
   height: auto;
   max-height: 560px;
   object-fit: cover;
+  object-position: center top;
   box-shadow: var(--shadow);
 }
 .about-text h2 { margin-bottom: 0.2rem; }
@@ -359,7 +362,7 @@ p.subtext { color: var(--mid); max-width: 620px; margin: 0 auto 3rem; }
   margin-bottom: 0.9rem;
 }
 .service-icon {
-  width: 84px; height: auto;
+  width: 70px; height: auto;
   flex-shrink: 0;
   border: none; border-radius: 0;
   object-fit: contain;
@@ -405,7 +408,7 @@ p.subtext { color: var(--mid); max-width: 620px; margin: 0 auto 3rem; }
   height: 50vh; min-height: 320px; max-height: 520px;
   overflow: hidden;
 }
-.path-photo img { object-position: center 55%; }
+.path-photo img { object-position: center bottom; }
 
 /* ---- FINAL QUOTE ---- */
 .quote-final {
