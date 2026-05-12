@@ -155,8 +155,10 @@ textarea:focus-visible {
   margin-bottom: 1rem;
 }
 .hero-sub {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
   font-size: 1.18rem;
-  font-weight: 600;
+  font-weight: 500;
   opacity: 0.96;
   margin-bottom: 2rem;
 }
