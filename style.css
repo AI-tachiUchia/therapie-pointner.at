@@ -256,6 +256,7 @@ p.subtext { color: var(--mid); max-width: 620px; margin: 0 auto 3rem; }
   height: auto;
   max-height: 560px;
   object-fit: cover;
+  object-position: center top;
   box-shadow: var(--shadow);
 }
 .about-text h2 { margin-bottom: 0.2rem; }
