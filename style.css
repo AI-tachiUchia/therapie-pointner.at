@@ -362,7 +362,7 @@ p.subtext { color: var(--mid); max-width: 620px; margin: 0 auto 3rem; }
   margin-bottom: 0.9rem;
 }
 .service-icon {
-  width: 84px; height: auto;
+  width: 70px; height: auto;
   flex-shrink: 0;
   border: none; border-radius: 0;
   object-fit: contain;
