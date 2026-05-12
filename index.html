@@ -1,562 +1,887 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Eva Pointner — Psychotherapie, Klinische Psychologie & Coaching</title>
-  <meta name="description" content="Eva Pointner, MA MSc — Psychotherapeutin und Klinische Psychologin in Innsbruck. Raum für Veränderung. Schneeburggasse 67b, 6020 Innsbruck.">
-  <link rel="icon" href="images/logo-mark.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-  <!-- NAV -->
-  <nav id="nav">
-    <div class="nav-inner">
-      <a href="#top" class="nav-logo">
-        <img src="images/logo.png" alt="Eva Pointner Logo">
-        <span>Eva Pointner</span>
-      </a>
-      <button class="nav-toggle" aria-label="Menü öffnen">&#9776;</button>
-      <ul class="nav-links">
-        <li><a href="#ueber-mich">Über mich</a></li>
-        <li><a href="#angebote">Angebote</a></li>
-        <li><a href="#raeumlichkeiten">Räumlichkeiten</a></li>
-        <li><a href="#kontakt" class="nav-cta">Termin anfragen</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <!-- HERO -->
-  <section id="top" class="hero">
-    <div class="hero-overlay"></div>
-    <div class="hero-content">
-      <p class="hero-eyebrow">Psychotherapie · Klinische Psychologie · Coaching</p>
-      <h1>Raum für Veränderung</h1>
-      <p class="hero-sub">Der erste Schritt beginnt hier.</p>
-      <blockquote class="hero-quote">
-        „Vielleicht ist das Wichtigste, was wir einander geben können, unsere ungeteilte Aufmerksamkeit."
-        <cite>— Thich Nhat Hanh</cite>
-      </blockquote>
-      <a href="#kontakt" class="btn-primary">Jetzt Termin anfragen</a>
-    </div>
-  </section>
-
-  <!-- ÜBER MICH -->
-  <section id="ueber-mich" class="about">
-    <div class="container about-grid">
-      <div class="about-image">
-        <img src="images/eva.jpg" alt="Porträt von Eva Pointner">
-      </div>
-      <div class="about-text">
-        <span class="section-label">Über mich</span>
-        <h2>Eva Pointner</h2>
-        <h3>Psychotherapeutin &amp; Klinische Psychologin</h3>
-        <p><strong>Herzlich willkommen!</strong></p>
-        <p>
-          Seit vielen Jahren arbeite ich in freier Praxis sowie in meiner Tätigkeit
-          am Universitätsklinikum Innsbruck gemeinsam mit Menschen in belastenden
-          Lebenssituationen, Krisen oder mit dem Wunsch nach persönlicher Weiterentwicklung.
-        </p>
-        <p>
-          Mit ehrlichem Interesse und Wertschätzung begleite ich Sie auf Ihrem Weg zu
-          mehr Klarheit, Lebensfreude und innerer Stärke — einfühlsam, professionell,
-          vertraulich und auf Augenhöhe. Ich bringe das fachliche Wissen und Sie die
-          Motivation, etwas nachhaltig verändern zu wollen — für Ihre bessere Lebensqualität.
-        </p>
-
-        <details class="accordion">
-          <summary>Ausbildungen</summary>
-          <div class="accordion-body">
-            <ul class="ausbildungen">
-              <li><strong>Schematherapie</strong><br><span>IST Institut für Schematherapie Frankfurt</span></li>
-              <li><strong>DBT — Dialektisch Behaviorale Therapie</strong><br><span>AWP Arbeitsgemeinschaft Wissenschaftliche Psychotherapie München</span></li>
-              <li><strong>Therapiebegleithund-Ausbildung mit Sherlock</strong><br><span>Österreichisches Rotes Kreuz</span></li>
-              <li><strong>Fachspezifikum Psychotherapie / Verhaltenstherapie</strong><br><span>ÖGVT, Österreich</span></li>
-              <li><strong>Verkehrspsychologin in Ausbildung</strong><br><span>INFAR Institut, Österreich</span></li>
-              <li><strong>Master of Science in Klinischer Psychologie</strong><br><span>Medizinische Universität Innsbruck, Österreich</span></li>
-              <li><strong>Psychotherapeutisches Propädeutikum</strong><br><span>Universität Innsbruck, Österreich</span></li>
-              <li><strong>Master of Arts in Business Studies and Psychology</strong><br><span>University of Edinburgh, Schottland</span></li>
-            </ul>
-          </div>
-        </details>
-
-        <details class="accordion">
-          <summary>Schwerpunkte</summary>
-          <div class="accordion-body">
-            <div class="schwerpunkte">
-              <div>
-                <h4>Klinische Themen</h4>
-                <ul>
-                  <li>Ängste &amp; Phobien</li>
-                  <li>Depression &amp; Bipolar</li>
-                  <li>Adipositas, Ernährungspsychologie &amp; Essstörungen</li>
-                  <li>Sucht</li>
-                  <li>Zwänge</li>
-                  <li>Persönlichkeitsstörungen</li>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>
+            Eva Pointner — Psychotherapie, Klinische Psychologie & Coaching
+        </title>
+        <meta
+            name="description"
+            content="Eva Pointner, MA MSc — Psychotherapeutin und Klinische Psychologin in Innsbruck. Raum für Veränderung. Schneeburggasse 67b, 6020 Innsbruck."
+        />
+        <link rel="icon" href="images/logo-mark.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- NAV -->
+        <nav id="nav">
+            <div class="nav-inner">
+                <a href="#top" class="nav-logo">
+                    <img src="images/logo.png" alt="Eva Pointner Logo" />
+                    <span>Eva Pointner</span>
+                </a>
+                <button class="nav-toggle" aria-label="Menü öffnen">
+                    &#9776;
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#ueber-mich">Über mich</a></li>
+                    <li><a href="#angebote">Angebote</a></li>
+                    <li><a href="#raeumlichkeiten">Räumlichkeiten</a></li>
+                    <li>
+                        <a href="#kontakt" class="nav-cta">Termin anfragen</a>
+                    </li>
                 </ul>
-              </div>
-              <div>
-                <h4>Beziehungs- &amp; Lebensthemen</h4>
-                <ul>
-                  <li>Paartherapie</li>
-                  <li>Emotionsregulation</li>
-                  <li>Belastungen &amp; Schicksalsschläge</li>
-                  <li>Familiendynamik</li>
-                  <li>Kinderwunsch</li>
-                  <li>Beziehungsprobleme</li>
-                  <li>Entscheidungshilfe</li>
-                  <li>Selbstwertprobleme</li>
-                </ul>
-              </div>
-              <div>
-                <h4>Coaching</h4>
-                <ul>
-                  <li>Schwierigkeiten am Arbeitsplatz</li>
-                  <li>Kommunikationstraining</li>
-                  <li>Persönlichkeitsentwicklung</li>
-                  <li>Burn Out &amp; Überforderung</li>
-                </ul>
-              </div>
             </div>
-          </div>
-        </details>
+        </nav>
 
-        <a href="#kontakt" class="btn-secondary">Kontakt aufnehmen</a>
-      </div>
-    </div>
-  </section>
+        <!-- HERO -->
+        <section id="top" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <p class="hero-eyebrow">
+                    Psychotherapie · Klinische Psychologie · Supervision · Coaching
+                </p>
+                <h1>Raum für Veränderung</h1>
+                <p class="hero-sub">Der erste Schritt beginnt hier.</p>
+                <blockquote class="hero-quote">
+                    „Vielleicht ist das Wichtigste, was wir einander geben
+                    können, unsere ungeteilte Aufmerksamkeit."
+                    <cite>— Thich Nhat Hanh</cite>
+                </blockquote>
+                <a href="#kontakt" class="btn-primary">Jetzt Termin anfragen</a>
+            </div>
+        </section>
 
-  <!-- SHERLOCK -->
-  <section class="sherlock">
-    <div class="container sherlock-grid">
-      <div class="sherlock-text">
-        <span class="section-label">Therapiebegleithund</span>
-        <h2>Sherlock</h2>
-        <p>
-          Mein Hund Sherlock ist ausgebildeter Therapiebegleithund und bei den
-          Therapieeinheiten in der Regel anwesend. Selbstverständlich nur, wenn
-          dies für Sie in Ordnung ist.
-        </p>
-      </div>
-      <div class="sherlock-image">
-        <img src="images/sherlock.jpg" alt="Therapiebegleithund Sherlock">
-      </div>
-    </div>
-  </section>
+        <!-- ÜBER MICH -->
+        <section id="ueber-mich" class="about">
+            <div class="container about-grid">
+                <div class="about-image">
+                    <img src="images/eva.jpg" alt="Porträt von Eva Pointner" />
+                </div>
+                <div class="about-text">
+                    <span class="section-label">Über mich</span>
+                    <h2>Eva Pointner</h2>
+                    <h3>Psychotherapeutin &amp; Klinische Psychologin</h3>
+                    <p><strong>Herzlich willkommen!</strong></p>
+                    <p>
+                        Seit vielen Jahren arbeite ich in freier Praxis sowie in
+                        meiner Tätigkeit am Universitätsklinikum Innsbruck
+                        gemeinsam mit Menschen in belastenden Lebenssituationen,
+                        Krisen oder mit dem Wunsch nach persönlicher
+                        Weiterentwicklung.
+                    </p>
+                    <p>
+                        Mit ehrlichem Interesse und Wertschätzung begleite ich
+                        Sie auf Ihrem Weg zu mehr Klarheit, Lebensfreude und
+                        innerer Stärke — einfühlsam, professionell, vertraulich
+                        und auf Augenhöhe. Ich bringe das fachliche Wissen und
+                        Sie die Motivation, etwas nachhaltig verändern zu wollen
+                        — für Ihre bessere Lebensqualität.
+                    </p>
 
-  <!-- ANGEBOTE -->
-  <section id="angebote" class="services">
-    <div class="container">
-      <span class="section-label center">Angebote</span>
-      <h2 class="center">Was ich anbiete</h2>
-      <div class="services-grid">
-        <div class="service-card">
-          <div class="service-head">
-            <img class="service-icon" src="images/logo-mark.png" alt="">
-            <h3>Einzeltherapie</h3>
-          </div>
-          <p class="service-sub">Verhaltenstherapie</p>
-          <p>Einfühlsame, individuelle Begleitung für Jugendliche ab 16 und Erwachsene.</p>
-        </div>
-        <div class="service-card">
-          <div class="service-head">
-            <img class="service-icon" src="images/logo-mark.png" alt="">
-            <h3>Paartherapie</h3>
-          </div>
-          <p>Umgang mit Krisen, Veränderungen, Trennungen, Sexualität und vielem mehr.</p>
-        </div>
-        <div class="service-card">
-          <div class="service-head">
-            <img class="service-icon" src="images/logo-mark.png" alt="">
-            <h3>Online-Therapie</h3>
-          </div>
-          <p>Flexible Therapieeinheiten per Video — ortsunabhängig und diskret.</p>
-        </div>
-        <div class="service-card">
-          <div class="service-head">
-            <img class="service-icon" src="images/logo-mark.png" alt="">
-            <h3>Selbsterfahrung</h3>
-          </div>
-          <p>Für klinische Psychologinnen und Psychologen in Ausbildung.</p>
-        </div>
-        <div class="service-card">
-          <div class="service-head">
-            <img class="service-icon" src="images/logo-mark.png" alt="">
-            <h3>Coaching, Supervision &amp; Beratung</h3>
-          </div>
-          <p>Zielgerichtete Begleitung bei beruflichen Herausforderungen.</p>
-        </div>
-        <div class="service-card">
-          <div class="service-head">
-            <img class="service-icon" src="images/logo-mark.png" alt="">
-            <h3>Workshops &amp; Trainings</h3>
-          </div>
-          <p>Kontaktieren Sie mich gerne für individuelle Angebote im Einzel- oder Gruppensetting.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+                    <details class="accordion">
+                        <summary>Ausbildungen</summary>
+                        <div class="accordion-body">
+                            <ul class="ausbildungen">
+                                <li>
+                                    <strong>Schematherapie</strong><br /><span
+                                        >IST Institut für Schematherapie
+                                        Frankfurt</span
+                                    >
+                                </li>
+                                <li>
+                                    <strong
+                                        >DBT — Dialektisch Behaviorale
+                                        Therapie</strong
+                                    ><br /><span
+                                        >AWP Arbeitsgemeinschaft
+                                        Wissenschaftliche Psychotherapie
+                                        München</span
+                                    >
+                                </li>
+                                <li>
+                                    <strong
+                                        >Therapiebegleithund-Ausbildung mit
+                                        Sherlock</strong
+                                    ><br /><span
+                                        >Österreichisches Rotes Kreuz</span
+                                    >
+                                </li>
+                                <li>
+                                    <strong
+                                        >Fachspezifikum Psychotherapie /
+                                        Verhaltenstherapie</strong
+                                    ><br /><span>ÖGVT, Österreich</span>
+                                </li>
+                                <li>
+                                    <strong
+                                        >Verkehrspsychologin in
+                                        Ausbildung</strong
+                                    ><br /><span
+                                        >INFAR Institut, Österreich</span
+                                    >
+                                </li>
+                                <li>
+                                    <strong
+                                        >Master of Science in Klinischer
+                                        Psychologie</strong
+                                    ><br /><span
+                                        >Medizinische Universität Innsbruck,
+                                        Österreich</span
+                                    >
+                                </li>
+                                <li>
+                                    <strong
+                                        >Psychotherapeutisches
+                                        Propädeutikum</strong
+                                    ><br /><span
+                                        >Universität Innsbruck, Österreich</span
+                                    >
+                                </li>
+                                <li>
+                                    <strong
+                                        >Master of Arts in Business Studies and
+                                        Psychology</strong
+                                    ><br /><span
+                                        >University of Edinburgh,
+                                        Schottland</span
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </details>
 
-  <!-- RÄUMLICHKEITEN -->
-  <section id="raeumlichkeiten" class="practice">
-    <div class="container">
-      <span class="section-label center">Räumlichkeiten</span>
-      <h2 class="center">Ein Ort zum Ankommen</h2>
-      <p class="center subtext">
-        Ein Raum für das, was Sie bewegt. Ein sicherer Ort zum Ankommen.
-        Ein Platz für Ihre Themen und Bedürfnisse.
-      </p>
-    </div>
-    <div class="gallery">
-      <div class="gallery-item tall">
-        <img src="images/praxis-2.jpg" alt="Praxisraum">
-      </div>
-      <div class="gallery-item wide">
-        <img src="images/praxis-1.jpg" alt="Praxisraum Detail">
-      </div>
-      <div class="gallery-item">
-        <img src="images/sherlock-portrait.jpg" alt="Sherlock im Praxisraum">
-      </div>
-      <div class="gallery-item">
-        <img src="images/camino.jpg" alt="Camino">
-      </div>
-    </div>
-  </section>
+                    <details class="accordion">
+                        <summary>Schwerpunkte</summary>
+                        <div class="accordion-body">
+                            <div class="schwerpunkte">
+                                <div>
+                                    <h4>Klinische Themen</h4>
+                                    <ul>
+                                        <li>Ängste &amp; Phobien</li>
+                                        <li>Depression &amp; Bipolar</li>
+                                        <li>
+                                            Adipositas, Ernährungspsychologie
+                                            &amp; Essstörungen
+                                        </li>
+                                        <li>Sucht</li>
+                                        <li>Zwänge</li>
+                                        <li>Persönlichkeitsstörungen</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h4>Beziehungs- &amp; Lebensthemen</h4>
+                                    <ul>
+                                        <li>Paartherapie</li>
+                                        <li>Emotionsregulation</li>
+                                        <li>
+                                            Belastungen &amp; Schicksalsschläge
+                                        </li>
+                                        <li>Familiendynamik</li>
+                                        <li>Kinderwunsch</li>
+                                        <li>Beziehungsprobleme</li>
+                                        <li>Entscheidungshilfe</li>
+                                        <li>Selbstwertprobleme</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h4>Coaching</h4>
+                                    <ul>
+                                        <li>Schwierigkeiten am Arbeitsplatz</li>
+                                        <li>Kommunikationstraining</li>
+                                        <li>Persönlichkeitsentwicklung</li>
+                                        <li>Burn Out &amp; Überforderung</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </details>
 
-  <!-- ERSTGESPRÄCH -->
-  <section class="first-talk">
-    <div class="container first-talk-grid">
-      <div class="first-talk-text">
-        <span class="section-label">Erstgespräch</span>
-        <h2>Ein erster, unverbindlicher Schritt</h2>
-        <p>
-          Kontaktieren Sie mich gerne für ein unverbindliches, vertrauliches
-          Erstgespräch, in dem ich mir gerne Zeit für Ihre Anliegen nehme.
-          Gleichzeitig können wir beide ein (Bauch-)Gefühl füreinander bekommen —
-          eine gute zwischenmenschliche Arbeitsbeziehung stellt die beste Basis
-          für einen Behandlungserfolg dar.
-        </p>
-        <p>
-          Hier beantworte ich Ihnen auch gerne alle Fragen zum Ablauf, zur
-          Methode (Verhaltenstherapie) und zu den Rahmenbedingungen.
-        </p>
-        <a href="#kontakt" class="btn-secondary">Termin anfragen</a>
-      </div>
-      <div class="first-talk-image">
-        <img src="images/praxis-1.jpg" alt="Praxisraum für das Erstgespräch">
-      </div>
-    </div>
-  </section>
+                    <a href="#kontakt" class="btn-secondary"
+                        >Kontakt aufnehmen</a
+                    >
+                </div>
+            </div>
+        </section>
 
-  <!-- ZITAT -->
-  <section class="quote-final">
-    <div class="container">
-      <blockquote>
-        <p>„Manchmal zeigt sich der Weg erst, wenn man beginnt, ihn zu gehen."</p>
-        <cite>— Paulo Coelho</cite>
-      </blockquote>
-    </div>
-  </section>
+        <!-- SHERLOCK -->
+        <section class="sherlock">
+            <div class="container sherlock-grid">
+                <div class="sherlock-text">
+                    <span class="section-label">Therapiebegleithund</span>
+                    <h2>Sherlock</h2>
+                    <p>
+                        Mein Hund Sherlock ist ausgebildeter Therapiebegleithund
+                        und bei den Therapieeinheiten in der Regel anwesend.
+                        Selbstverständlich nur, wenn dies für Sie in Ordnung
+                        ist.
+                    </p>
+                </div>
+                <div class="sherlock-image">
+                    <img
+                        src="images/sherlock.jpg"
+                        alt="Therapiebegleithund Sherlock"
+                    />
+                </div>
+            </div>
+        </section>
 
-  <!-- KONTAKT -->
-  <section id="kontakt" class="contact">
-    <div class="container contact-grid">
-      <div class="contact-info">
-        <span class="section-label">Kontakt</span>
-        <h2>Termin anfragen</h2>
-        <p>Ich freue mich über Ihre Nachricht und melde mich innerhalb weniger Werktage.</p>
-        <ul class="contact-details">
-          <li>
-            <strong>Eva Pointner</strong><br>
-            Schneeburggasse 67b<br>
-            6020 Innsbruck
-          </li>
-          <li>
-            <strong>Telefon</strong><br>
-            <a href="tel:+436776380430">+43 677 63 80 43 30</a>
-          </li>
-          <li>
-            <strong>E-Mail</strong><br>
-            <a href="mailto:therapie.pointner@gmail.com">therapie.pointner@gmail.com</a>
-          </li>
-          <li>
-            <strong>Abrechnung</strong><br>
-            Für die klinisch-psychologische bzw. psychotherapeutische Behandlung können
-            Sie einen Kostenzuschuss von Ihrer Krankenkasse erhalten. Details bespreche
-            ich gerne im Erstgespräch.
-          </li>
-        </ul>
-      </div>
-      <form class="contact-form" action="mailto:therapie.pointner@gmail.com" method="GET" onsubmit="return handleForm(event)">
-        <div class="form-group">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" placeholder="Ihr Name" required>
-        </div>
-        <div class="form-group">
-          <label for="email">E-Mail</label>
-          <input type="email" id="email" name="email" placeholder="Ihre E-Mail-Adresse" required>
-        </div>
-        <div class="form-group">
-          <label for="phone">Telefon (optional)</label>
-          <input type="tel" id="phone" name="phone" placeholder="+43 ...">
-        </div>
-        <div class="form-group">
-          <label for="message">Nachricht</label>
-          <textarea id="message" name="message" rows="5" placeholder="Wie kann ich Sie unterstützen?" required></textarea>
-        </div>
-        <button type="submit" class="btn-primary full">Nachricht senden</button>
-        <p class="form-note">Ihre Daten werden vertraulich behandelt und nicht an Dritte weitergegeben.</p>
-      </form>
-    </div>
+        <!-- ANGEBOTE -->
+        <section id="angebote" class="services">
+            <div class="container">
+                <span class="section-label center">Angebote</span>
+                <h2 class="center">Was ich anbiete</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-head">
+                            <img
+                                class="service-icon"
+                                src="images/logo-mark.png"
+                                alt=""
+                            />
+                            <h3>Einzeltherapie</h3>
+                        </div>
+                        <p class="service-sub">Verhaltenstherapie</p>
+                        <p>
+                            Einfühlsame, individuelle Begleitung für Jugendliche
+                            ab 16 und Erwachsene.
+                        </p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-head">
+                            <img
+                                class="service-icon"
+                                src="images/logo-mark.png"
+                                alt=""
+                            />
+                            <h3>Paartherapie</h3>
+                        </div>
+                        <p>
+                            Umgang mit Krisen, Veränderungen, Trennungen,
+                            Sexualität und vielem mehr.
+                        </p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-head">
+                            <img
+                                class="service-icon"
+                                src="images/logo-mark.png"
+                                alt=""
+                            />
+                            <h3>Online-Therapie</h3>
+                        </div>
+                        <p>
+                            Flexible Therapieeinheiten per Video —
+                            ortsunabhängig und diskret.
+                        </p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-head">
+                            <img
+                                class="service-icon"
+                                src="images/logo-mark.png"
+                                alt=""
+                            />
+                            <h3>Selbsterfahrung</h3>
+                        </div>
+                        <p>
+                            Für klinische Psychologinnen und Psychologen in
+                            Ausbildung.
+                        </p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-head">
+                            <img
+                                class="service-icon"
+                                src="images/logo-mark.png"
+                                alt=""
+                            />
+                            <h3>Coaching, Supervision &amp; Beratung</h3>
+                        </div>
+                        <p>
+                            Zielgerichtete Begleitung bei beruflichen
+                            Herausforderungen.
+                        </p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-head">
+                            <img
+                                class="service-icon"
+                                src="images/logo-mark.png"
+                                alt=""
+                            />
+                            <h3>Workshops &amp; Trainings</h3>
+                        </div>
+                        <p>
+                            Kontaktieren Sie mich gerne für individuelle
+                            Angebote im Einzel- oder Gruppensetting.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <!-- MAPS Click-to-load -->
-    <div class="container">
-      <div class="maps-wrap" id="maps-wrap">
-        <div class="maps-placeholder">
-          <div class="maps-pin" aria-hidden="true">
-            <svg viewBox="0 0 24 24" width="44" height="44" fill="currentColor">
-              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
-            </svg>
-          </div>
-          <p class="maps-address">Schneeburggasse 67b, 6020 Innsbruck</p>
-          <button type="button" class="btn-secondary maps-load">Karte laden</button>
-          <p class="maps-note">Beim Laden werden Daten an Google übertragen.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+        <!-- RÄUMLICHKEITEN -->
+        <section id="raeumlichkeiten" class="practice">
+            <div class="container">
+                <span class="section-label center">Räumlichkeiten</span>
+                <h2 class="center">Ein Ort zum Ankommen</h2>
+                <p class="center subtext">
+                    Ein Raum für das, was Sie bewegt. Ein sicherer Ort zum
+                    Ankommen. Ein Platz für Ihre Themen und Bedürfnisse.
+                </p>
+            </div>
+            <div class="gallery">
+                <div class="gallery-item tall">
+                    <img src="images/praxis-2.jpg" alt="Praxisraum" />
+                </div>
+                <div class="gallery-item wide">
+                    <img src="images/praxis-1.jpg" alt="Praxisraum Detail" />
+                </div>
+                <div class="gallery-item">
+                    <img
+                        src="images/sherlock-portrait.jpg"
+                        alt="Sherlock im Praxisraum"
+                    />
+                </div>
+                <div class="gallery-item">
+                    <img src="images/camino.jpg" alt="Camino" />
+                </div>
+            </div>
+        </section>
 
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="container footer-inner">
-      <div class="footer-logo">
-        <img src="images/logo.png" alt="Eva Pointner Logo">
-        <span>Eva Pointner</span>
-      </div>
-      <nav class="footer-nav">
-        <a href="#ueber-mich">Über mich</a>
-        <a href="#angebote">Angebote</a>
-        <a href="#raeumlichkeiten">Räumlichkeiten</a>
-        <a href="#kontakt">Kontakt</a>
-      </nav>
+        <!-- ERSTGESPRÄCH -->
+        <section class="first-talk">
+            <div class="container first-talk-grid">
+                <div class="first-talk-text">
+                    <span class="section-label">Erstgespräch</span>
+                    <h2>Ein erster, unverbindlicher Schritt</h2>
+                    <p>
+                        Kontaktieren Sie mich gerne für ein unverbindliches,
+                        vertrauliches Erstgespräch, in dem ich mir gerne Zeit
+                        für Ihre Anliegen nehme. Gleichzeitig können wir beide
+                        ein (Bauch-)Gefühl füreinander bekommen — eine gute
+                        zwischenmenschliche Arbeitsbeziehung stellt die beste
+                        Basis für einen Behandlungserfolg dar.
+                    </p>
+                    <p>
+                        Hier beantworte ich Ihnen auch gerne alle Fragen zum
+                        Ablauf, zur Methode (Verhaltenstherapie) und zu den
+                        Rahmenbedingungen.
+                    </p>
+                    <a href="#kontakt" class="btn-secondary">Termin anfragen</a>
+                </div>
+                <div class="first-talk-image">
+                    <img
+                        src="images/praxis-1.jpg"
+                        alt="Praxisraum für das Erstgespräch"
+                    />
+                </div>
+            </div>
+        </section>
 
-      <div class="footer-legal">
-        <details class="legal">
-          <summary>Impressum</summary>
-          <div class="legal-body">
-            <p><strong>Angaben gemäß § 5 ECG, § 24 Mediengesetz und Offenlegungspflicht</strong></p>
-            <p>
-              Eva Pointner, MA MSc<br>
-              Psychotherapeutin · Klinische Psychologin
-            </p>
-            <p>
-              <strong>Praxisadresse</strong><br>
-              Schneeburggasse 67b<br>
-              6020 Innsbruck<br>
-              Österreich
-            </p>
-            <p>
-              Telefon: +43 677 63 80 43 30<br>
-              E-Mail: <a href="mailto:therapie.pointner@gmail.com">therapie.pointner@gmail.com</a>
-            </p>
+        <!-- ZITAT -->
+        <section class="quote-final">
+            <div class="container">
+                <blockquote>
+                    <p>
+                        „Manchmal zeigt sich der Weg erst, wenn man beginnt, ihn
+                        zu gehen."
+                    </p>
+                    <cite>— Paulo Coelho</cite>
+                </blockquote>
+            </div>
+        </section>
 
-            <p><strong>Berufsrechtliche Angaben</strong></p>
-            <p>Berufsbezeichnungen:</p>
-            <ul>
-              <li>Psychotherapeutin nach dem österreichischen Psychotherapiegesetz</li>
-              <li>Klinische Psychologin nach dem Psychologengesetz 2013</li>
-            </ul>
-            <p>Verleihungsstaat der Berufsbezeichnungen: Österreich</p>
-            <p>Eintragung:</p>
-            <ul>
-              <li>Eingetragen in die Psychotherapeutenliste des Bundesministeriums für Soziales, Gesundheit, Pflege und Konsumentenschutz</li>
-              <li>Eingetragen in die Liste der Klinischen Psycholog:innen</li>
-            </ul>
-            <p>
-              Zuständige Aufsichtsbehörde:<br>
-              Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz<br>
-              Stubenring 1, 1010 Wien, Österreich
-            </p>
-            <p>Anwendbare Rechtsvorschriften:</p>
-            <ul>
-              <li>Psychotherapiegesetz</li>
-              <li>Psychologengesetz 2013</li>
-              <li>E-Commerce-Gesetz (ECG)</li>
-              <li>Mediengesetz</li>
-            </ul>
+        <!-- KONTAKT -->
+        <section id="kontakt" class="contact">
+            <div class="container contact-grid">
+                <div class="contact-info">
+                    <span class="section-label">Kontakt</span>
+                    <h2>Termin anfragen</h2>
+                    <p>
+                        Ich freue mich über Ihre Nachricht und melde mich
+                        innerhalb weniger Werktage.
+                    </p>
+                    <ul class="contact-details">
+                        <li>
+                            <strong>Eva Pointner</strong><br />
+                            Schneeburggasse 67b<br />
+                            6020 Innsbruck
+                        </li>
+                        <li>
+                            <strong>Telefon</strong><br />
+                            <a href="tel:+436776380430">+43 677 63 80 43 30</a>
+                        </li>
+                        <li>
+                            <strong>E-Mail</strong><br />
+                            <a href="mailto:therapie.pointner@gmail.com"
+                                >therapie.pointner@gmail.com</a
+                            >
+                        </li>
+                        <li>
+                            <strong>Abrechnung</strong><br />
+                            Für die klinisch-psychologische bzw.
+                            psychotherapeutische Behandlung können Sie einen
+                            Kostenzuschuss von Ihrer Krankenkasse erhalten.
+                            Details bespreche ich gerne im Erstgespräch.
+                        </li>
+                    </ul>
+                </div>
+                <form
+                    class="contact-form"
+                    action="mailto:therapie.pointner@gmail.com"
+                    method="GET"
+                    onsubmit="return handleForm(event);"
+                >
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Ihr Name"
+                            required
+                        />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-Mail</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Ihre E-Mail-Adresse"
+                            required
+                        />
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telefon (optional)</label>
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            placeholder="+43 ..."
+                        />
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Nachricht</label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="5"
+                            placeholder="Wie kann ich Sie unterstützen?"
+                            required
+                        ></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary full">
+                        Nachricht senden
+                    </button>
+                    <p class="form-note">
+                        Ihre Daten werden vertraulich behandelt und nicht an
+                        Dritte weitergegeben.
+                    </p>
+                </form>
+            </div>
 
-            <p><strong>Unternehmensgegenstand</strong><br>
-            Psychotherapie sowie klinisch-psychologische Beratung, Diagnostik und Behandlung.</p>
+            <!-- MAPS Click-to-load -->
+            <div class="container">
+                <div class="maps-wrap" id="maps-wrap">
+                    <div class="maps-placeholder">
+                        <div class="maps-pin" aria-hidden="true">
+                            <svg
+                                viewBox="0 0 24 24"
+                                width="44"
+                                height="44"
+                                fill="currentColor"
+                            >
+                                <path
+                                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
+                                />
+                            </svg>
+                        </div>
+                        <p class="maps-address">
+                            Schneeburggasse 67b, 6020 Innsbruck
+                        </p>
+                        <button type="button" class="btn-secondary maps-load">
+                            Karte laden
+                        </button>
+                        <p class="maps-note">
+                            Beim Laden werden Daten an Google übertragen.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            <p><strong>Mitgliedschaften</strong></p>
-            <ul>
-              <li>Österreichischer Bundesverband für Psychotherapie (ÖBVP)</li>
-              <li>Berufsverband Österreichischer PsychologInnen (BÖP)</li>
-              <li>Tiroler Landesverband für Psychotherapie (TLP)</li>
-            </ul>
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="container footer-inner">
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="Eva Pointner Logo" />
+                    <span>Eva Pointner</span>
+                </div>
+                <nav class="footer-nav">
+                    <a href="#ueber-mich">Über mich</a>
+                    <a href="#angebote">Angebote</a>
+                    <a href="#raeumlichkeiten">Räumlichkeiten</a>
+                    <a href="#kontakt">Kontakt</a>
+                </nav>
 
-            <p><strong>Medieninhaberin und für den Inhalt verantwortlich</strong><br>
-            Eva Pointner, MA. MSc.<br>
-            Schneeburggasse 67b, 6020 Innsbruck, Österreich</p>
+                <div class="footer-legal">
+                    <details class="legal">
+                        <summary>Impressum</summary>
+                        <div class="legal-body">
+                            <p>
+                                <strong
+                                    >Angaben gemäß § 5 ECG, § 24 Mediengesetz
+                                    und Offenlegungspflicht</strong
+                                >
+                            </p>
+                            <p>
+                                Eva Pointner, MA MSc<br />
+                                Psychotherapeutin · Klinische Psychologin
+                            </p>
+                            <p>
+                                <strong>Praxisadresse</strong><br />
+                                Schneeburggasse 67b<br />
+                                6020 Innsbruck<br />
+                                Österreich
+                            </p>
+                            <p>
+                                Telefon: +43 677 63 80 43 30<br />
+                                E-Mail:
+                                <a href="mailto:therapie.pointner@gmail.com"
+                                    >therapie.pointner@gmail.com</a
+                                >
+                            </p>
 
-            <p><strong>Haftungsausschluss</strong><br>
-            Die Inhalte dieser Website wurden mit größtmöglicher Sorgfalt erstellt. Für die
-            Richtigkeit, Vollständigkeit und Aktualität der Inhalte wird jedoch keine
-            Gewähr übernommen. Trotz sorgfältiger inhaltlicher Kontrolle wird keine
-            Haftung für die Inhalte externer Links übernommen. Für den Inhalt der
-            verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.</p>
+                            <p><strong>Berufsrechtliche Angaben</strong></p>
+                            <p>Berufsbezeichnungen:</p>
+                            <ul>
+                                <li>
+                                    Psychotherapeutin nach dem österreichischen
+                                    Psychotherapiegesetz
+                                </li>
+                                <li>
+                                    Klinische Psychologin nach dem
+                                    Psychologengesetz 2013
+                                </li>
+                            </ul>
+                            <p>
+                                Verleihungsstaat der Berufsbezeichnungen:
+                                Österreich
+                            </p>
+                            <p>Eintragung:</p>
+                            <ul>
+                                <li>
+                                    Eingetragen in die Psychotherapeutenliste
+                                    des Bundesministeriums für Soziales,
+                                    Gesundheit, Pflege und Konsumentenschutz
+                                </li>
+                                <li>
+                                    Eingetragen in die Liste der Klinischen
+                                    Psycholog:innen
+                                </li>
+                            </ul>
+                            <p>
+                                Zuständige Aufsichtsbehörde:<br />
+                                Bundesministerium für Soziales, Gesundheit,
+                                Pflege und Konsumentenschutz<br />
+                                Stubenring 1, 1010 Wien, Österreich
+                            </p>
+                            <p>Anwendbare Rechtsvorschriften:</p>
+                            <ul>
+                                <li>Psychotherapiegesetz</li>
+                                <li>Psychologengesetz 2013</li>
+                                <li>E-Commerce-Gesetz (ECG)</li>
+                                <li>Mediengesetz</li>
+                            </ul>
 
-            <p><strong>Urheberrecht</strong><br>
-            Alle Inhalte dieser Website, insbesondere Texte, Bilder und Grafiken, sind
-            urheberrechtlich geschützt. Eine Verwendung oder Vervielfältigung ist ohne
-            ausdrückliche Zustimmung nicht gestattet.</p>
-          </div>
-        </details>
+                            <p>
+                                <strong>Unternehmensgegenstand</strong><br />
+                                Psychotherapie sowie klinisch-psychologische
+                                Beratung, Diagnostik und Behandlung.
+                            </p>
 
-        <details class="legal">
-          <summary>Datenschutz</summary>
-          <div class="legal-body">
-            <p><strong>Datenschutzerklärung</strong></p>
-            <p>
-              Der Schutz Ihrer persönlichen Daten ist mir ein besonderes Anliegen.
-              Ich verarbeite Ihre Daten daher ausschließlich auf Grundlage der
-              gesetzlichen Bestimmungen (DSGVO, DSG, TKG 2021). In dieser
-              Datenschutzerklärung informiere ich Sie über die wichtigsten Aspekte
-              der Datenverarbeitung im Rahmen dieser Website.
-            </p>
+                            <p><strong>Mitgliedschaften</strong></p>
+                            <ul>
+                                <li>
+                                    Österreichischer Bundesverband für
+                                    Psychotherapie (ÖBVP)
+                                </li>
+                                <li>
+                                    Berufsverband Österreichischer
+                                    PsychologInnen (BÖP)
+                                </li>
+                                <li>
+                                    Tiroler Landesverband für Psychotherapie
+                                    (TLP)
+                                </li>
+                            </ul>
 
-            <p><strong>Verantwortliche</strong><br>
-            Eva Pointner, MA. MSc.<br>
-            Psychotherapeutin · Klinische Psychologin<br>
-            Schneeburggasse 67b, 6020 Innsbruck, Österreich<br>
-            Telefon: +43 677 63 80 43 30<br>
-            E-Mail: <a href="mailto:therapie.pointner@gmail.com">therapie.pointner@gmail.com</a></p>
+                            <p>
+                                <strong
+                                    >Medieninhaberin und für den Inhalt
+                                    verantwortlich</strong
+                                ><br />
+                                Eva Pointner, MA. MSc.<br />
+                                Schneeburggasse 67b, 6020 Innsbruck, Österreich
+                            </p>
 
-            <p><strong>Hosting der Website</strong><br>
-            Diese Website wird über GitHub Pages bereitgestellt, einen Dienst der
-            GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA.
-            Beim Aufruf dieser Website kann GitHub insbesondere IP-Adressen und
-            technische Zugriffsdaten verarbeiten, um den Dienst bereitzustellen, zu
-            schützen und Missbrauch zu verhindern. Weitere Informationen finden Sie in
-            der GitHub-Datenschutzerklärung:
-            <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" target="_blank" rel="noopener">GitHub General Privacy Statement</a>.</p>
+                            <p>
+                                <strong>Haftungsausschluss</strong><br />
+                                Die Inhalte dieser Website wurden mit
+                                größtmöglicher Sorgfalt erstellt. Für die
+                                Richtigkeit, Vollständigkeit und Aktualität der
+                                Inhalte wird jedoch keine Gewähr übernommen.
+                                Trotz sorgfältiger inhaltlicher Kontrolle wird
+                                keine Haftung für die Inhalte externer Links
+                                übernommen. Für den Inhalt der verlinkten Seiten
+                                sind ausschließlich deren Betreiber
+                                verantwortlich.
+                            </p>
 
-            <p><strong>Kontaktaufnahme</strong><br>
-            Wenn Sie per E-Mail oder über ein Kontaktformular Kontakt aufnehmen, werden
-            die von Ihnen angegebenen Daten zwecks Bearbeitung Ihrer Anfrage und für den
-            Fall von Anschlussfragen gespeichert. Diese Daten werden ohne Ihre Einwilligung
-            nicht weitergegeben. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO
-            (vorvertragliche Maßnahmen) und Art. 6 Abs. 1 lit. f DSGVO (berechtigtes
-            Interesse an der Bearbeitung von Anfragen).</p>
+                            <p>
+                                <strong>Urheberrecht</strong><br />
+                                Alle Inhalte dieser Website, insbesondere Texte,
+                                Bilder und Grafiken, sind urheberrechtlich
+                                geschützt. Eine Verwendung oder Vervielfältigung
+                                ist ohne ausdrückliche Zustimmung nicht
+                                gestattet.
+                            </p>
+                        </div>
+                    </details>
 
-            <p><strong>Vertraulichkeit und besondere Sensibilität</strong><br>
-            Als Psychotherapeutin und Klinische Psychologin unterliege ich besonderen
-            gesetzlichen Verschwiegenheitspflichten. Bitte beachten Sie dennoch, dass die
-            Übertragung von Daten im Internet (z.&nbsp;B. per E-Mail) Sicherheitslücken
-            aufweisen kann. Eine vollständige Vertraulichkeit bei elektronischer
-            Kommunikation kann daher nicht garantiert werden.</p>
+                    <details class="legal">
+                        <summary>Datenschutz</summary>
+                        <div class="legal-body">
+                            <p><strong>Datenschutzerklärung</strong></p>
+                            <p>
+                                Der Schutz Ihrer persönlichen Daten ist mir ein
+                                besonderes Anliegen. Ich verarbeite Ihre Daten
+                                daher ausschließlich auf Grundlage der
+                                gesetzlichen Bestimmungen (DSGVO, DSG, TKG
+                                2021). In dieser Datenschutzerklärung informiere
+                                ich Sie über die wichtigsten Aspekte der
+                                Datenverarbeitung im Rahmen dieser Website.
+                            </p>
 
-            <p><strong>Server-Logfiles</strong><br>
-            GitHub kann beim Besuch von GitHub-Pages-Websites technische Protokolldaten
-            wie IP-Adresse, Datum und Uhrzeit des Abrufs, Browser- bzw. Gerätedaten,
-            Referrer-URL und aufgerufene Seiten verarbeiten. Diese Daten dienen der
-            technischen Bereitstellung und Sicherheit der Website. Rechtsgrundlage ist
-            Art. 6 Abs. 1 lit. f DSGVO.</p>
+                            <p>
+                                <strong>Verantwortliche</strong><br />
+                                Eva Pointner, MA. MSc.<br />
+                                Psychotherapeutin · Klinische Psychologin<br />
+                                Schneeburggasse 67b, 6020 Innsbruck,
+                                Österreich<br />
+                                Telefon: +43 677 63 80 43 30<br />
+                                E-Mail:
+                                <a href="mailto:therapie.pointner@gmail.com"
+                                    >therapie.pointner@gmail.com</a
+                                >
+                            </p>
 
-            <p><strong>Cookies</strong><br>
-            Diese Website verwendet Cookies, um die Benutzerfreundlichkeit zu verbessern.
-            Sie können Ihren Browser so einrichten, dass Sie über das Setzen von Cookies
-            informiert werden und Cookies nur im Einzelfall erlauben.</p>
+                            <p>
+                                <strong>Hosting der Website</strong><br />
+                                Diese Website wird über GitHub Pages
+                                bereitgestellt, einen Dienst der GitHub, Inc.,
+                                88 Colin P. Kelly Jr. Street, San Francisco, CA
+                                94107, USA. Beim Aufruf dieser Website kann
+                                GitHub insbesondere IP-Adressen und technische
+                                Zugriffsdaten verarbeiten, um den Dienst
+                                bereitzustellen, zu schützen und Missbrauch zu
+                                verhindern. Weitere Informationen finden Sie in
+                                der GitHub-Datenschutzerklärung:
+                                <a
+                                    href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement"
+                                    target="_blank"
+                                    rel="noopener"
+                                    >GitHub General Privacy Statement</a
+                                >.
+                            </p>
 
-            <p><strong>Webanalyse</strong><br>
-            Diese Website verwendet keine Webanalyse-Tools.</p>
+                            <p>
+                                <strong>Kontaktaufnahme</strong><br />
+                                Wenn Sie per E-Mail oder über ein
+                                Kontaktformular Kontakt aufnehmen, werden die
+                                von Ihnen angegebenen Daten zwecks Bearbeitung
+                                Ihrer Anfrage und für den Fall von
+                                Anschlussfragen gespeichert. Diese Daten werden
+                                ohne Ihre Einwilligung nicht weitergegeben.
+                                Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO
+                                (vorvertragliche Maßnahmen) und Art. 6 Abs. 1
+                                lit. f DSGVO (berechtigtes Interesse an der
+                                Bearbeitung von Anfragen).
+                            </p>
 
-            <p><strong>Eingebettete Inhalte und externe Dienste</strong><br>
-            Diese Website kann eingebettete Inhalte oder externe Dienste verwenden,
-            beispielsweise Google Maps, Schriftarten (Google Fonts) sowie
-            Social-Media-Verlinkungen. Dabei können personenbezogene Daten (insbesondere
-            IP-Adressen) an Drittanbieter übertragen werden. Google Maps wird auf dieser
-            Website ausschließlich nach aktiver Bestätigung („Karte laden") geladen.</p>
+                            <p>
+                                <strong
+                                    >Vertraulichkeit und besondere
+                                    Sensibilität</strong
+                                ><br />
+                                Als Psychotherapeutin und Klinische Psychologin
+                                unterliege ich besonderen gesetzlichen
+                                Verschwiegenheitspflichten. Bitte beachten Sie
+                                dennoch, dass die Übertragung von Daten im
+                                Internet (z.&nbsp;B. per E-Mail)
+                                Sicherheitslücken aufweisen kann. Eine
+                                vollständige Vertraulichkeit bei elektronischer
+                                Kommunikation kann daher nicht garantiert
+                                werden.
+                            </p>
 
-            <p><strong>Ihre Rechte</strong><br>
-            Ihnen stehen folgende Rechte zu: Auskunft, Berichtigung, Einschränkung der
-            Verarbeitung, Datenübertragbarkeit, Widerruf, Widerspruch. Wenn Sie der
-            Ansicht sind, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht
-            verstößt, können Sie sich bei der österreichischen Datenschutzbehörde beschweren.</p>
+                            <p>
+                                <strong>Server-Logfiles</strong><br />
+                                GitHub kann beim Besuch von
+                                GitHub-Pages-Websites technische Protokolldaten
+                                wie IP-Adresse, Datum und Uhrzeit des Abrufs,
+                                Browser- bzw. Gerätedaten, Referrer-URL und
+                                aufgerufene Seiten verarbeiten. Diese Daten
+                                dienen der technischen Bereitstellung und
+                                Sicherheit der Website. Rechtsgrundlage ist Art.
+                                6 Abs. 1 lit. f DSGVO.
+                            </p>
 
-            <p><strong>Datenschutzbehörde</strong><br>
-            Österreichische Datenschutzbehörde<br>
-            Barichgasse 40–42, 1030 Wien, Österreich</p>
+                            <p>
+                                <strong>Cookies</strong><br />
+                                Diese Website verwendet Cookies, um die
+                                Benutzerfreundlichkeit zu verbessern. Sie können
+                                Ihren Browser so einrichten, dass Sie über das
+                                Setzen von Cookies informiert werden und Cookies
+                                nur im Einzelfall erlauben.
+                            </p>
 
-            <p><em>Stand der Datenschutzerklärung: Mai 2026</em></p>
-          </div>
-        </details>
-      </div>
+                            <p>
+                                <strong>Webanalyse</strong><br />
+                                Diese Website verwendet keine Webanalyse-Tools.
+                            </p>
 
-      <p class="footer-copy">&copy; 2026 Eva Pointner. Alle Rechte vorbehalten.</p>
-    </div>
-  </footer>
+                            <p>
+                                <strong
+                                    >Eingebettete Inhalte und externe
+                                    Dienste</strong
+                                ><br />
+                                Diese Website kann eingebettete Inhalte oder
+                                externe Dienste verwenden, beispielsweise Google
+                                Maps, Schriftarten (Google Fonts) sowie
+                                Social-Media-Verlinkungen. Dabei können
+                                personenbezogene Daten (insbesondere
+                                IP-Adressen) an Drittanbieter übertragen werden.
+                                Google Maps wird auf dieser Website
+                                ausschließlich nach aktiver Bestätigung („Karte
+                                laden") geladen.
+                            </p>
 
-  <script>
-    // Sticky nav
-    const updateNavState = () => {
-      document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 60);
-    };
-    updateNavState();
-    window.addEventListener('scroll', updateNavState);
+                            <p>
+                                <strong>Ihre Rechte</strong><br />
+                                Ihnen stehen folgende Rechte zu: Auskunft,
+                                Berichtigung, Einschränkung der Verarbeitung,
+                                Datenübertragbarkeit, Widerruf, Widerspruch.
+                                Wenn Sie der Ansicht sind, dass die Verarbeitung
+                                Ihrer Daten gegen das Datenschutzrecht verstößt,
+                                können Sie sich bei der österreichischen
+                                Datenschutzbehörde beschweren.
+                            </p>
 
-    // Mobile menu toggle
-    document.querySelector('.nav-toggle').addEventListener('click', () => {
-      document.querySelector('.nav-links').classList.toggle('open');
-    });
+                            <p>
+                                <strong>Datenschutzbehörde</strong><br />
+                                Österreichische Datenschutzbehörde<br />
+                                Barichgasse 40–42, 1030 Wien, Österreich
+                            </p>
 
-    // Close menu on link click
-    document.querySelectorAll('.nav-links a').forEach(link => {
-      link.addEventListener('click', () => {
-        document.querySelector('.nav-links').classList.remove('open');
-      });
-    });
+                            <p>
+                                <em
+                                    >Stand der Datenschutzerklärung: Mai
+                                    2026</em
+                                >
+                            </p>
+                        </div>
+                    </details>
+                </div>
 
-    // Scroll-in animation
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(e => {
-        if (e.isIntersecting) e.target.classList.add('visible');
-      });
-    }, { threshold: 0.1 });
-    document.querySelectorAll(
-      '.about-grid, .sherlock-grid, .service-card, .first-talk-grid, .quote-final blockquote, .gallery-item, .contact-grid'
-    ).forEach(el => {
-      el.classList.add('fade-in');
-      observer.observe(el);
-    });
+                <p class="footer-copy">
+                    &copy; 2026 Eva Pointner. Alle Rechte vorbehalten.
+                </p>
+            </div>
+        </footer>
 
-    // Click-to-load Google Maps
-    document.querySelector('.maps-load')?.addEventListener('click', () => {
-      const wrap = document.getElementById('maps-wrap');
-      const iframe = document.createElement('iframe');
-      iframe.src = 'https://www.google.com/maps?q=Schneeburggasse+67b+6020+Innsbruck&output=embed';
-      iframe.loading = 'lazy';
-      iframe.referrerPolicy = 'no-referrer-when-downgrade';
-      iframe.allow = 'fullscreen';
-      iframe.title = 'Karte: Schneeburggasse 67b, 6020 Innsbruck';
-      wrap.innerHTML = '';
-      wrap.appendChild(iframe);
-    });
+        <script>
+            // Sticky nav
+            const updateNavState = () => {
+                document
+                    .getElementById("nav")
+                    .classList.toggle("scrolled", window.scrollY > 60);
+            };
+            updateNavState();
+            window.addEventListener("scroll", updateNavState);
 
-    // Mailto handler
-    function handleForm(e) {
-      e.preventDefault();
-      const name = document.getElementById('name').value;
-      const email = document.getElementById('email').value;
-      const phone = document.getElementById('phone').value;
-      const msg = document.getElementById('message').value;
-      const body = `${msg}\n\nAntwort an: ${email}${phone ? '\nTelefon: ' + phone : ''}`;
-      window.location.href = `mailto:therapie.pointner@gmail.com?subject=${encodeURIComponent('Terminanfrage von ' + name)}&body=${encodeURIComponent(body)}`;
-    }
-  </script>
-</body>
+            // Mobile menu toggle
+            document
+                .querySelector(".nav-toggle")
+                .addEventListener("click", () => {
+                    document
+                        .querySelector(".nav-links")
+                        .classList.toggle("open");
+                });
+
+            // Close menu on link click
+            document.querySelectorAll(".nav-links a").forEach((link) => {
+                link.addEventListener("click", () => {
+                    document
+                        .querySelector(".nav-links")
+                        .classList.remove("open");
+                });
+            });
+
+            // Scroll-in animation
+            const observer = new IntersectionObserver(
+                (entries) => {
+                    entries.forEach((e) => {
+                        if (e.isIntersecting) e.target.classList.add("visible");
+                    });
+                },
+                { threshold: 0.1 },
+            );
+            document
+                .querySelectorAll(
+                    ".about-grid, .sherlock-grid, .service-card, .first-talk-grid, .quote-final blockquote, .gallery-item, .contact-grid",
+                )
+                .forEach((el) => {
+                    el.classList.add("fade-in");
+                    observer.observe(el);
+                });
+
+            // Click-to-load Google Maps
+            document
+                .querySelector(".maps-load")
+                ?.addEventListener("click", () => {
+                    const wrap = document.getElementById("maps-wrap");
+                    const iframe = document.createElement("iframe");
+                    iframe.src =
+                        "https://www.google.com/maps?q=Schneeburggasse+67b+6020+Innsbruck&output=embed";
+                    iframe.loading = "lazy";
+                    iframe.referrerPolicy = "no-referrer-when-downgrade";
+                    iframe.allow = "fullscreen";
+                    iframe.title = "Karte: Schneeburggasse 67b, 6020 Innsbruck";
+                    wrap.innerHTML = "";
+                    wrap.appendChild(iframe);
+                });
+
+            // Mailto handler
+            function handleForm(e) {
+                e.preventDefault();
+                const name = document.getElementById("name").value;
+                const email = document.getElementById("email").value;
+                const phone = document.getElementById("phone").value;
+                const msg = document.getElementById("message").value;
+                const body = `${msg}\n\nAntwort an: ${email}${phone ? "\nTelefon: " + phone : ""}`;
+                window.location.href = `mailto:therapie.pointner@gmail.com?subject=${encodeURIComponent("Terminanfrage von " + name)}&body=${encodeURIComponent(body)}`;
+            }
+        </script>
+    </body>
 </html>
